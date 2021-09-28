@@ -17,7 +17,7 @@ class _MyDatePickerAppState extends State<MyDatePickerApp> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Date Picker'),
+        title: Text('Date Picker', style: TextStyle(color: Colors.cyan),),
         centerTitle: true,
       ),
       body: Center(
